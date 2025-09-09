@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = %w[lib]
   gem.version       = OmniAuth::Office365::VERSION
 
-  gem.add_dependency 'omniauth-oauth2', '~> 1.7.1'
+  gem.add_dependency 'omniauth-oauth2', '~> 1.8.0'
 
   gem.add_development_dependency 'rack-test'
   gem.add_development_dependency 'rake'
